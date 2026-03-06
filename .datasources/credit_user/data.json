@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "1",
+    "name": "李四",
+    "phone": "138****8888",
+    "email": "lisi@example.com",
+    "jobTitle": "软件工程师",
+    "workYears": "3-5年",
+    "certificates": [
+      {
+        "id": 1,
+        "name": "PMP项目管理证书",
+        "type": "技能证书",
+        "file": "https://example.com/pmp_cert.pdf"
+      },
+      {
+        "id": 2,
+        "name": "AWS云计算认证",
+        "type": "技能证书",
+        "file": "https://example.com/aws_cert.pdf"
+      }
+    ],
+    "certificationStatus": "approved",
+    "creditScore": 75,
+    "initialScore": 70,
+    "reviews": [],
+    "createdAt": 1740908400000,
+    "updatedAt": 1740997200000
+  },
+  {
+    "_id": "2",
+    "name": "王五",
+    "phone": "137****7777",
+    "email": "wangwu@example.com",
+    "jobTitle": "产品经理",
+    "workYears": "5-10年",
+    "certificates": [
+      {
+        "id": 1,
+        "name": "PMP项目管理证书",
+        "type": "技能证书",
+        "file": "https://example.com/pmp_cert2.pdf"
+      }
+    ],
+    "certificationStatus": "approved",
+    "creditScore": 73,
+    "initialScore": 70,
+    "createdAt": 1740823800000,
+    "updatedAt": 1740908400000
+  },
+  {
+    "_id": "3",
+    "name": "赵六",
+    "phone": "135****5555",
+    "email": "zhaoliu@example.com",
+    "jobTitle": "市场专员",
+    "workYears": "1-3年",
+    "certificates": [],
+    "certificationStatus": "pending",
+    "creditScore": 70,
+    "initialScore": 70,
+    "createdAt": 1740908400000,
+    "updatedAt": 1740908400000
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "name": "credit_property",
+  "title": "物业信用",
+  "schemas": [
+    {
+      "name": "buildingName",
+      "title": "楼宇名称",
+      "type": "String"
+    },
+    {
+      "name": "address",
+      "title": "楼宇地址",
+      "type": "String"
+    },
+    {
+      "name": "area",
+      "title": "楼宇面积",
+      "type": "String"
+    },
+    {
+      "name": "propertyRightFile",
+      "title": "楼宇产权证明",
+      "type": "File"
+    },
+    {
+      "name": "operatingLicenseFile",
+      "title": "运营资质证明",
+      "type": "File"
+    },
+    {
+      "name": "certificationStatus",
+      "title": "认证状态",
+      "type": "String"
+    },
+    {
+      "name": "creditScore",
+      "title": "信用分",
+      "type": "Number"
+    },
+    {
+      "name": "initialScore",
+      "title": "初始信用分",
+      "type": "Number"
+    },
+    {
+      "name": "reviews",
+      "title": "评价记录",
+      "type": "Array",
+      "items": {
+        "type": "Object"
+      }
+    }
+  ]
+}

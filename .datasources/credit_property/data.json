@@ -1,0 +1,63 @@
+[
+  {
+    "_id": "1",
+    "buildingName": "科技园A座",
+    "address": "深圳南山区科技园路88号",
+    "area": "50000",
+    "propertyRightFile": "https://example.com/property_right_1.pdf",
+    "operatingLicenseFile": "https://example.com/operating_license_1.pdf",
+    "certificationStatus": "approved",
+    "creditScore": 85,
+    "initialScore": 80,
+    "reviews": [
+      {
+        "targetType": "物业",
+        "averageRating": 4.8,
+        "ratings": {
+          "服务响应": 5,
+          "设施维护": 4,
+          "安全保障": 5
+        },
+        "comment": "物业管理服务响应很快，设施维护及时，整体很满意！",
+        "createdAt": "2026-02-28T10:30:00Z"
+      },
+      {
+        "targetType": "物业",
+        "averageRating": 4.5,
+        "ratings": {
+          "服务响应": 4,
+          "设施维护": 5,
+          "安全保障": 4
+        },
+        "comment": "环境不错，就是有时候响应慢了一点",
+        "createdAt": "2026-02-25T14:20:00Z"
+      }
+    ],
+    "createdAt": 1740908400000,
+    "updatedAt": 1740997200000
+  },
+  {
+    "_id": "2",
+    "buildingName": "创新大厦B座",
+    "address": "深圳南山区高新南一道100号",
+    "area": "35000",
+    "propertyRightFile": "https://example.com/property_right_2.pdf",
+    "operatingLicenseFile": "https://example.com/operating_license_2.pdf",
+    "certificationStatus": "approved",
+    "creditScore": 82,
+    "initialScore": 80,
+    "createdAt": 1740823800000,
+    "updatedAt": 1740908400000
+  },
+  {
+    "_id": "3",
+    "buildingName": "人才大厦C座",
+    "address": "深圳南山区科技南八路8号",
+    "area": "28000",
+    "certificationStatus": "submitted",
+    "creditScore": 80,
+    "initialScore": 80,
+    "createdAt": 1740908400000,
+    "updatedAt": 1740908400000
+  }
+]

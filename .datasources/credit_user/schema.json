@@ -1,0 +1,62 @@
+{
+  "name": "credit_user",
+  "title": "职场人信用",
+  "schemas": [
+    {
+      "name": "name",
+      "title": "姓名",
+      "type": "String"
+    },
+    {
+      "name": "phone",
+      "title": "联系电话",
+      "type": "String"
+    },
+    {
+      "name": "email",
+      "title": "邮箱",
+      "type": "Email"
+    },
+    {
+      "name": "jobTitle",
+      "title": "职位/求职意向",
+      "type": "String"
+    },
+    {
+      "name": "workYears",
+      "title": "工作年限",
+      "type": "String"
+    },
+    {
+      "name": "certificates",
+      "title": "技能证书",
+      "type": "Array",
+      "items": {
+        "type": "Object"
+      }
+    },
+    {
+      "name": "certificationStatus",
+      "title": "认证状态",
+      "type": "String"
+    },
+    {
+      "name": "creditScore",
+      "title": "信用分",
+      "type": "Number"
+    },
+    {
+      "name": "initialScore",
+      "title": "初始信用分",
+      "type": "Number"
+    },
+    {
+      "name": "reviews",
+      "title": "评价记录",
+      "type": "Array",
+      "items": {
+        "type": "Object"
+      }
+    }
+  ]
+}

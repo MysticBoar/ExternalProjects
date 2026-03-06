@@ -1,0 +1,94 @@
+{
+  "name": "biz_supply_demand",
+  "title": "供求信息",
+  "schemas": [
+    {
+      "name": "type",
+      "title": "类型",
+      "type": "String"
+    },
+    {
+      "name": "title",
+      "title": "标题",
+      "type": "String"
+    },
+    {
+      "name": "category",
+      "title": "类别",
+      "type": "String"
+    },
+    {
+      "name": "targetCustomer",
+      "title": "目标客户群",
+      "type": "String"
+    },
+    {
+      "name": "supplierRequirement",
+      "title": "供应商/采购方要求",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "priceRange",
+      "title": "预算/报价范围",
+      "type": "String"
+    },
+    {
+      "name": "region",
+      "title": "服务/需求区域",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "title": "详细描述",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "contactName",
+      "title": "联系人姓名",
+      "type": "String"
+    },
+    {
+      "name": "contactPhone",
+      "title": "联系电话",
+      "type": "String"
+    },
+    {
+      "name": "company",
+      "title": "公司名称",
+      "type": "String"
+    },
+    {
+      "name": "creditScore",
+      "title": "企业信用分",
+      "type": "Number"
+    },
+    {
+      "name": "rating",
+      "title": "评分",
+      "type": "Number"
+    },
+    {
+      "name": "reviews",
+      "title": "评价数",
+      "type": "Number"
+    },
+    {
+      "name": "distance",
+      "title": "距离",
+      "type": "String"
+    },
+    {
+      "name": "building",
+      "title": "所在楼宇",
+      "type": "String"
+    },
+    {
+      "name": "tags",
+      "title": "标签",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    }
+  ]
+}

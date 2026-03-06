@@ -1,0 +1,64 @@
+{
+  "name": "credit_company",
+  "title": "企业信用",
+  "schemas": [
+    {
+      "name": "companyName",
+      "title": "企业名称",
+      "type": "String"
+    },
+    {
+      "name": "licenseNumber",
+      "title": "营业执照号",
+      "type": "String"
+    },
+    {
+      "name": "creditCode",
+      "title": "统一社会信用代码",
+      "type": "String"
+    },
+    {
+      "name": "legalPerson",
+      "title": "法定代表人",
+      "type": "String"
+    },
+    {
+      "name": "registeredCapital",
+      "title": "注册资本",
+      "type": "String"
+    },
+    {
+      "name": "businessScope",
+      "title": "经营范围",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "contactPhone",
+      "title": "联系电话",
+      "type": "String"
+    },
+    {
+      "name": "certificationStatus",
+      "title": "认证状态",
+      "type": "String"
+    },
+    {
+      "name": "creditScore",
+      "title": "信用分",
+      "type": "Number"
+    },
+    {
+      "name": "initialScore",
+      "title": "初始信用分",
+      "type": "Number"
+    },
+    {
+      "name": "reviews",
+      "title": "评价记录",
+      "type": "Array",
+      "items": {
+        "type": "Object"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "_id": "1",
+    "companyName": "智联科技有限公司",
+    "licenseNumber": "440300123456789",
+    "creditCode": "91440300MA5EQXXXXX",
+    "legalPerson": "张三",
+    "registeredCapital": "1000万元人民币",
+    "businessScope": "软件开发、技术服务、系统集成",
+    "contactPhone": "138****8888",
+    "certificationStatus": "approved",
+    "creditScore": 88,
+    "initialScore": 80,
+    "reviews": [
+      {
+        "targetType": "企业",
+        "averageRating": 4.7,
+        "ratings": {
+          "薪资待遇": 5,
+          "企业文化": 4,
+          "发展空间": 5
+        },
+        "comment": "公司待遇不错，发展空间大，同事关系融洽",
+        "createdAt": "2026-03-01T09:15:00Z"
+      }
+    ],
+    "createdAt": 1740908400000,
+    "updatedAt": 1740997200000
+  },
+  {
+    "_id": "2",
+    "companyName": "办公优选商务服务",
+    "licenseNumber": "440300987654321",
+    "creditCode": "91440300MA5FRYYYYY",
+    "legalPerson": "李四",
+    "registeredCapital": "500万元人民币",
+    "businessScope": "办公用品销售、企业服务",
+    "contactPhone": "139****6666",
+    "certificationStatus": "approved",
+    "creditScore": 85,
+    "initialScore": 80,
+    "createdAt": 1740823800000,
+    "updatedAt": 1740908400000
+  },
+  {
+    "_id": "3",
+    "companyName": "人才无忧人力资源",
+    "licenseNumber": "440300112233445",
+    "creditCode": "91440300MA5GZZZZZZ",
+    "legalPerson": "王五",
+    "registeredCapital": "300万元人民币",
+    "businessScope": "人力资源服务、劳务外包",
+    "contactPhone": "136****9999",
+    "certificationStatus": "submitted",
+    "creditScore": 80,
+    "initialScore": 80,
+    "createdAt": 1740908400000,
+    "updatedAt": 1740908400000
+  }
+]

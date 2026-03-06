@@ -1,0 +1,56 @@
+{
+  "name": "credit_score_history",
+  "title": "信用分变化历史",
+  "schemas": [
+    {
+      "name": "subjectType",
+      "title": "主体类型",
+      "type": "String"
+    },
+    {
+      "name": "subjectId",
+      "title": "主体ID",
+      "type": "String"
+    },
+    {
+      "name": "subjectName",
+      "title": "主体名称",
+      "type": "String"
+    },
+    {
+      "name": "actionType",
+      "title": "操作类型",
+      "type": "String"
+    },
+    {
+      "name": "reviewType",
+      "title": "评价类型",
+      "type": "String"
+    },
+    {
+      "name": "scoreChange",
+      "title": "分数变化",
+      "type": "Number"
+    },
+    {
+      "name": "beforeScore",
+      "title": "变化前信用分",
+      "type": "Number"
+    },
+    {
+      "name": "afterScore",
+      "title": "变化后信用分",
+      "type": "Number"
+    },
+    {
+      "name": "reason",
+      "title": "变化原因",
+      "type": "String"
+    },
+    {
+      "name": "relatedReviewId",
+      "title": "关联评价ID",
+      "type": "String"
+    }
+  ]
+}
